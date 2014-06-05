@@ -1,5 +1,7 @@
 Tournament Organizer Helper
+
 Author: Ted Soper
+
 Date: 06/05/2014
 
 
