@@ -2,14 +2,18 @@ Tournament Organizer Helper
 
 Author: Ted Soper
 
-Date: 06/05/2014
+Date: 06/15/2014
 
 
-version: 0.0.1
+version: 0.0.2
+
+NEW FIXES/FEATURES:
+-Updated UI to work better on small screens
 
 KNOWN ISSUES:
 -Tabbing and keyboard "enter" does not work correctly, have to use mouse for now
 -There is currently no validation and minimal error checking on fields, so enter data carefully
+-Responsive UI not working perfectly
 
 
 TODO
