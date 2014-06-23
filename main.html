@@ -1,0 +1,125 @@
+	<div>
+			<div class="col-md-12 hide" id="roundResults">
+				<h4 class="text-primary col-md-8 col-md-offset-2">Text</h4>
+			</div>
+
+			<div class="col-md-10 col-md-offset-1 row hide" id="tournamentStandings">
+				<div class="page-header">
+					<h3>Standings</h3>
+				</div>
+
+				<table class="table table-striped table-hover" id="standingsTable">
+					<thead>
+						<th>#</th>
+						<th>First Name</th>
+						<th>Last Name</th>
+						<th>Army</th>
+						<th>BattlePoints</th>
+						<th>Sporstmanship</th>
+						<th>Painting</th>
+					</thead>
+					<tbody id="standingsTableBody">
+						<tr class="hide"></tr>
+					</tbody>
+				</table>
+			</div>
+
+
+		</section>
+
+		<!-- Templates -->
+
+		<!-- Tournament Result dialog -->
+		<!-- <div ng-include="'tournamentResultDialog.html'"></div> -->
+		<div class="modal hide" id="tournamentModal">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+						<h4 class="modal-title">Tournament Over!</h4>
+					</div>
+					<div class="modal-body">
+						<p>X</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Ok</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Round Result Panels -->
+		<!-- <div ng-include="'roundResultPanel.html'"></div> -->
+		<div class="panel panel-primary col-md-8 col-md-offset-2 hide" id="roundResultPanel">
+			<div class="panel-heading">
+				<h3 class="panel-title">Round # -Table #</h3>
+			</div>
+			<div class="panel-body">
+				<form class="form form-inline" role="form">		
+
+					<div class="col-md-12">
+						<div class="form-group col-md-3">
+							<label class="text-primary" id="playerOne">Player 1</label><br>
+							<label class="text-primary" id="playerOneId">(#)</label>
+						</div>
+
+						<div class="form-group col-md-3">
+							<label for="inputSmall">Battle Points</label>
+							<div class="input-group">
+								<input class="form-control input" id="battlePointsPlayerOne" type="text"/>
+								<span class="input-group-addon">!</span>
+							</div>
+						</div>
+
+						<div class="form-group col-md-3">
+							<label for="inputSmall">Sportsmanship</label>
+							<div class="input-group">
+								<input class="form-control input" id="sportsmanshipPlayerOne" type="text">
+								<span class="input-group-addon">!</span>
+							</div>
+						</div>
+
+						<div class="form-group col-md-3">
+							<label for="inputSmall">Painting</label>
+							<div class="input-group">
+								<input class="form-control input" id="paintingPlayerOne" type="text">
+								<span class="input-group-addon">!</span>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-12">
+						<div class="form-group col-md-3">
+							<label class="text-primary" id="playerTwo">Player 2</label><br>
+							<label class="text-primary" id="playerTwoId">(#)</label>
+						</div>
+
+						<div class="form-group col-md-3">
+							<label for="inputSmall">Battle Points</label>
+							<div class="input-group">
+								<input class="form-control input" id="battlePointsPlayerTwo" type="text">
+								<span class="input-group-addon">!</span>
+							</div>
+						</div>
+
+						<div class="form-group col-md-3">
+							<label for="inputSmall">Sportsmanship</label>
+							<div class="input-group">
+								<input class="form-control input" id="sportsmanshipPlayerTwo" type="text">
+								<span class="input-group-addon">!</span>
+							</div>
+						</div>
+
+						<div class="form-group col-md-3">
+							<label for="inputSmall">Painting</label>
+							<div class="input-group">
+								<input class="form-control input" id="paintingPlayerTwo" type="text">
+								<span class="input-group-addon">!</span>
+							</div>
+						</div>
+					</div>
+					<button type="button" class="btn btn-default center-button col-md-2 pull-right" >Enter</button>
+				</form>
+			</div>
+		</div>
+	</div>

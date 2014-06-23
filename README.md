@@ -2,21 +2,23 @@ Tournament Organizer Helper
 
 Author: Ted Soper
 
-Date: 06/15/2014
+Date: 06/23/2014
 
 
-version: 0.0.2
+version: 0.0.3
 
 NEW FIXES/FEATURES:
--Updated UI to work better on small screens
+-Started code refactor with adding angular js
 
 KNOWN ISSUES:
+-code doesn't work, refactor not fininished
 -Tabbing and keyboard "enter" does not work correctly, have to use mouse for now
 -There is currently no validation and minimal error checking on fields, so enter data carefully
 -Responsive UI not working perfectly
 
 
 TODO
+-finish refactoring code to new angular model
 -Save global vars to local storage
 -Repopulate from local storage if data exists
 -Implement Robust pairing system based on army, player played against already and table played on already
